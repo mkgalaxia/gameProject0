@@ -7,25 +7,22 @@ Main character
 
 100 hit points represented in a red bar
 100 mana points represented in either (blue bar or yellow hourglass looking bar), haven't decided
-only single jump
+
+only single jump. Use space to jump
 wasd movement
-can crouch
+crouch with 'S'
+double tap 'S' to drop through a platform
+
 (4) element abilities (these may or may not cost mana)
-	fireball - A liniar projectile that deals (normal) damage and burns
-	(haven't decided on rest)
-	lightning:
-		throws lightning in a bottle with castlevania axe trejectory that explodes on cntact for large damage
-		liniar high damage projectile
-		hold the attack button to send a cloud forward and release to either (cause vertical high damage strike or explodes for high damage)
-	ice:
-		ice spike or snowball that launches with castlevania axe trejectory
-		fires 3 ice spikes downard diagnally from above the main character
-	earth:
-		causes rock spikes to appear out of the ground in front of the main character
-		fires a large rock out of the ground below the main character in a low arc in front of him. the target hit can get knocked back
-	water:
-		a short range water whip that can be fired in 8 directions
-	If you think of any more write it down.
+	Press 'J' for fireball:
+		A liniar projectile that deals (normal) damage and burns	
+	Press 'K' for ice:
+		ice spike or snowball that launches in an arch. this freezes enemies but does no damage.
+	Press 'L' for earth:
+		causes rock spikes to appear out of the ground in front of the main character.
+	Press ';' for water:
+		a short range water whip that can be fired in 8 directions. Use wasd to aim.
+		
 Time abilities
 	cost (75): rewinds  platforms, characters, and enemies position, health, and mana (except for the mana used to cast this) to where they were 3 seconds ago. It also destroys all projectiles
 	cost (10+10t^2): the position of all platforms, enemys, projectile, and the character is held till the spell stops (I might change this to just make everything slow-mo instead)
@@ -50,7 +47,8 @@ Enemies
 ENEMYS CAN BE ADDED OR REMOVED AS NEEDED
 
 snake - also drops from top of screen, jumps instead of walks.
-archer - fires arrow in straight line
+archer - fires arrow in a low arch
+wizard - fires a fireball in a straight light, low health
 mole - comes out of the ground and either swipes or throws rock (doesn't have to be a mole. it's just a filler name)
 bohemith - large enemy with club. approx. 2-3x larger than MC. has a charge and jumping strike that you can run under
 falcon - dives down at an angle to drop rock/seed/whatever at you
@@ -68,4 +66,10 @@ Levels
 
 1st level - forest
 first half will be a normal forest, second half will be in overgrown castle ruins.
+
+2nd level - Cave
+no specifics yet.
+
+Story:
+Ask Micah.
 
