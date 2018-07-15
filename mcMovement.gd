@@ -1,11 +1,22 @@
 extends KinematicBody2D
 
 var motion = Vector2()
+var speed = 10
+var canMove = true
+var move_direction = Vector2(0,0)
 
-func _physics_process(delta):
+func _fixed_process(delta):
 	
-	if Input.is_action_pressed("KEY_D"):
-		motion.x = 320
+	if (canMove):
+		move_player()
+
+func move_player():
 	
-	move_and_slide(motion)
+	move_direction = Vector2(0,0)
+	if Input.is_key_pressed(KEY_A):
+		move_direction += Vector2(-1,0)
+	if Input.is_key_pressed(KEY_D):
+		move_direction += Vector2(1,0)
+	move(move_direction.normalized() * speed)
+	
 	pass
